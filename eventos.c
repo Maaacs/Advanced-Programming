@@ -4,44 +4,36 @@
 #include <stdbool.h>
 
 
-// Implemente uma estrutura chamada evento_t para armazenar um evento. Esta estrutura deverá ter os campos tempo (double), alvo (int) e tipo (int).
+// Implemente uma estrutura chamada evento_t para armazenar um evento.
 typedef struct {
   double tempo;
   int alvo;
   int tipo;
 } evento_t;
 
-// Implemente uma estrutura chamada lista_eventos_t para a lista encadeada. Esta estrutura deverá ter um
-// campo para apontar para um evento (evento_t*) e um campo para apontar para o proximo evento
-// (lista_eventos_t*). Uma lista nova/vazia irá apontar para NULL, portanto não há necessidade de se
-// implementar uma função que crie uma nova lista. 
-
-
-// structs auxiliares
+// Implemente uma estrutura chamada lista_eventos_t para a lista encadeada.
 typedef struct lista_eventos{
   evento_t cargautil;
-  struct lista_eventos* proximo; // sucessor
+  struct lista_eventos* proximo; 
 }lista_eventos_t;
 
+// struct auxiliare
 typedef struct lista TListaSE;
 struct lista{
   lista_eventos_t* inicio;
-  int tamanho;
+  //int tamanho; //flag para futuras implementações
 };
 
 
 TListaSE* criaLista(){
   TListaSE* lista = malloc(sizeof(TListaSE));
-
   lista->inicio = NULL;
-  lista->tamanho = 0;
-
+//   lista->tamanho = 0;
   return lista;
 }
 
 lista_eventos_t* criarElementoLSE(evento_t carga){
   lista_eventos_t* elem = malloc(sizeof(lista_eventos_t));
-
   elem->cargautil = carga;
   elem->proximo=NULL;
 
@@ -51,16 +43,17 @@ lista_eventos_t* criarElementoLSE(evento_t carga){
 // Implemente uma função para adicionar um evento no início da lista. Esta função deverá ter a seguinte interface:
 // bool lista_eventos_adicionar_inicio(evento_t *evento, lista_eventos_t **lista);
 
-void lista_eventos_adicionar_inicio(TListaSE* evento, evento_t lista){
+bool lista_eventos_adicionar_inicio(TListaSE* evento, evento_t lista){
   lista_eventos_t *novo = criarElementoLSE(lista);
 
-  evento->tamanho++;
+//   evento->tamanho++;
   if (evento->inicio == NULL){
     evento->inicio = novo;
   }else{
     novo->proximo = evento->inicio;
     evento->inicio = novo;
   }
+  return true;
 }
 
 
@@ -86,9 +79,9 @@ void lista_eventos_listar(TListaSE *lista){
 // Implemente uma função para adicionar um evento no final da lista. Esta função deverá ter a seguinte interface:
 // bool lista_eventos_adicionar_fim(evento_t *evento, lista_eventos_t **lista);
 
-void lista_eventos_adicionar_fim(TListaSE* evento, evento_t lista){
+bool lista_eventos_adicionar_fim(TListaSE* evento, evento_t lista){
   lista_eventos_t *novo = criarElementoLSE(lista);
-  evento->tamanho++;
+//   evento->tamanho++;
   if (evento->inicio == NULL){
     evento->inicio = novo;
   }else{
@@ -98,8 +91,38 @@ void lista_eventos_adicionar_fim(TListaSE* evento, evento_t lista){
     }
     cam->proximo = novo;
   }
+  return true;
 }
 
+
+bool lista_eventos_adicionar_ordenado(evento_t *evento, lista_eventos_t **lista) {
+  lista_eventos_t *novo = criarElementoLSE(*evento);
+
+  // Se a lista for NULL, faça-a apontar para o novo item.
+  if (*lista == NULL) {
+    *lista = novo;
+    return false;
+  }
+
+  // Se o tempo do novo evento for menor do que o tempo do primeiro item da lista, adicione o item no início da lista.
+  if (evento->tempo < (*lista)->cargautil.tempo) {
+    novo->proximo = *lista;
+    *lista = novo;
+    return false;
+  }
+
+  // Percorra a lista para encontrar a posição adequada para inserir o novo evento.
+  lista_eventos_t *item_atual = *lista;
+  while (item_atual->proximo != NULL && item_atual->proximo->cargautil.tempo < evento->tempo) {
+    item_atual = item_atual->proximo;
+  }
+
+  // Adicione o novo evento como próximo do item_atual.
+  novo->proximo = item_atual->proximo;
+  item_atual->proximo = novo;
+
+  return true;
+}
 
 
 int main(int argc, char* argv[]) {
@@ -125,7 +148,10 @@ int main(int argc, char* argv[]) {
     novo_evento.alvo = alvo;
     novo_evento.tipo = tipo;
 
-    lista_eventos_adicionar_inicio(lista_eventos, novo_evento);
+    //lista_eventos_adicionar_inicio(lista_eventos, novo_evento);
+    //lista_eventos_adicionar_fim(lista_eventos, novo_evento);
+    lista_eventos_adicionar_ordenado(&novo_evento, &(lista_eventos->inicio));
+
   }
 
   fclose(arquivo);
