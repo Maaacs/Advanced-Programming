@@ -82,6 +82,26 @@ void lista_eventos_listar(TListaSE *lista){
   printf("\n");
 }
 
+
+// Implemente uma função para adicionar um evento no final da lista. Esta função deverá ter a seguinte interface:
+// bool lista_eventos_adicionar_fim(evento_t *evento, lista_eventos_t **lista);
+
+void lista_eventos_adicionar_fim(TListaSE* evento, evento_t lista){
+  lista_eventos_t *novo = criarElementoLSE(lista);
+  evento->tamanho++;
+  if (evento->inicio == NULL){
+    evento->inicio = novo;
+  }else{
+    lista_eventos_t *cam = evento->inicio;
+    while (cam->proximo!=NULL){
+      cam = cam->proximo;
+    }
+    cam->proximo = novo;
+  }
+}
+
+
+
 int main(int argc, char* argv[]) {
   if (argc != 2) {
     printf("Uso: %s nome_do_arquivo\n", argv[0]);
