@@ -16,7 +16,7 @@ typedef struct lista_pessoas {
     struct lista_pessoas *proximo;
 } lista_pessoas_t;
 
-typedef lista_pessoas_t** tabela_hash_t;
+typedef lista_pessoas_t** tabela_hash_t; // vetor de ponteiros para a LSE
 
 int tabela_hash_tam; // Tamanho da Tabela Hash
 
@@ -64,9 +64,16 @@ bool tabela_hash_pessoas_adicionar(pessoa_t *pessoa, tabela_hash_t tabela_hash) 
 
 // Lista as pessoas da tabela hash.
 void tabela_hash_pessoas_listar(tabela_hash_t tabela_hash) {
+    int encontrou_pessoas = 0;
     for (int i = 0; i < tabela_hash_tam; i++) {
-        printf("POSIÇÃO %d DA TABELA HASH:\n", i);
-        lista_pessoas_listar(tabela_hash[i]);
+        if(tabela_hash[i]){
+            printf("POSIÇÃO %d DA TABELA HASH:\n", i);
+            lista_pessoas_listar(tabela_hash[i]);
+            encontrou_pessoas = 1;
+        }
+    }
+    if(!encontrou_pessoas){ // Verifica se o arquivo contém os dados,.
+        printf("A tabela está vazia.\n");
     }
 }
 
@@ -82,20 +89,21 @@ int main(int argc, char **argv) {
     tabela_hash_t tabela_hash = tabela_hash_pessoas_criar();
 
     // Abre o arquivo
-    FILE *arq_in = fopen(argv[2], "r");
+    FILE *arq_externo = fopen(argv[2], "r");
     // Verifica se o arquivo existe
-    if (arq_in == NULL) {
+    if (arq_externo == NULL) {
         printf("Erro ao abrir o arquivo.\n");
         return 1;
     }
 
     pessoa_t pessoa;
     // Lê string de max 50 caracteres até encontrar o tab "\t"
-    while (fscanf(arq_in, "%50[^\t]\t%lld\t%d\n", pessoa.nome, &pessoa.cpf, &pessoa.idade) == 3) {
+    while (fscanf(arq_externo, "%50[^\t]\t%lld\t%d\n", pessoa.nome, &pessoa.cpf, &pessoa.idade) == 3) {
         tabela_hash_pessoas_adicionar(&pessoa, tabela_hash);
     }
-    fclose(arq_in);
+    fclose(arq_externo);
 
+    
     tabela_hash_pessoas_listar(tabela_hash);
 
     // Libera a memória alocada
