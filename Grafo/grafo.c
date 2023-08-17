@@ -52,3 +52,35 @@ grafo_t grafo_criar(int tam){
     }
     return grafo;
 }
+
+
+// Insere os itens pra cada elemento do grafo
+bool grafo_atualizar_vizinhos(int tam, double raio_comunicacao, grafo_t grafo) {
+    for (int i = 0; i < tam; i++) { // Percorre todos os nós do grafo
+        for (int j = 0; j < tam; j++) { // Compara o nó atual (i) com todos os outros nós (j)
+            if (i != j) {
+                // Calcula a distância euclidiana entre os nós 
+                double distancia = sqrt(pow(grafo[i].x - grafo[j].x, 2) + pow(grafo[i].y - grafo[j].y, 2));
+                if (distancia < raio_comunicacao) {
+                    // Verifica se ainda não existe uma lista de adjacências para o nó j
+                    if (grafo[j].lista == NULL) {
+                        lista_vizinhos_t **lista_vizinhos_j = (lista_vizinhos_t **)malloc(sizeof(lista_vizinhos_t **));
+                        if (lista_vizinhos_j == NULL) {
+                            return false; 
+                        }
+                        grafo[j].lista = lista_vizinhos_j; // Vincula a lista criada para um determinado nó
+                    }
+                    int id = grafo[i].id; // Obtém o ID do nó i
+                    bool inseriu = lista_vizinhos_adicionar(id, grafo[j].lista); // Adiciona o ID do nó i à lista de vizinhos do nó j
+                    // Enquanto não inserir, tenta novamente
+                    while (!inseriu) {
+                        inseriu = lista_vizinhos_adicionar(id, grafo[j].lista);
+                    }
+                }
+            }
+        }
+    }
+
+    return true;
+}
+
