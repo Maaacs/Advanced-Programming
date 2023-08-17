@@ -84,3 +84,9 @@ bool grafo_atualizar_vizinhos(int tam, double raio_comunicacao, grafo_t grafo) {
     return true;
 }
 
+void grafo_imprimir(int tam, grafo_t grafo){
+    for (int i = 0; i < tam; i++) {
+        printf("NO %d:  ", grafo[i].id);
+        lista_vizinhos_imprimir(*grafo[i].lista);
+    }
+}
