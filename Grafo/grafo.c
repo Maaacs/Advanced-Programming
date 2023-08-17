@@ -16,7 +16,7 @@ typedef struct No{
 
 typedef no_t *grafo_t; // Vetor de nós
 
-// Adiciona items na lista
+// Adiciona itens na lista
 bool lista_vizinhos_adicionar(int vizinho, lista_vizinhos_t **lista){
     lista_vizinhos_t *novo_vizinho = malloc(sizeof(lista_vizinhos_t));
     if (!novo_vizinho){
@@ -35,4 +35,20 @@ void lista_vizinhos_imprimir(lista_vizinhos_t *lista){
         lista = lista->proximo;
     }
     printf("\n");
+}
+
+
+// Cria um grafo vazio com o tamanho especificado
+grafo_t grafo_criar(int tam){
+    grafo_t grafo = (grafo_t)malloc(tam * sizeof(no_t));
+
+    if (!grafo){
+        printf("Erro ao alocar memória para o grafo");
+        return NULL;
+    }
+    for (int i = 0; i < tam; i++) {
+        grafo[i].id = i;
+        grafo[i].lista = NULL;
+    }
+    return grafo;
 }
