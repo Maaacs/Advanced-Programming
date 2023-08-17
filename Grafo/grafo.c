@@ -16,6 +16,7 @@ typedef struct No{
 
 typedef no_t *grafo_t; // Vetor de nós
 
+// Adiciona items na lista
 bool lista_vizinhos_adicionar(int vizinho, lista_vizinhos_t **lista){
     lista_vizinhos_t *novo_vizinho = malloc(sizeof(lista_vizinhos_t));
     if (!novo_vizinho){
@@ -25,4 +26,13 @@ bool lista_vizinhos_adicionar(int vizinho, lista_vizinhos_t **lista){
     novo_vizinho->proximo = *lista;
     *lista = novo_vizinho;
     return true;
+}
+
+// Imprime os itens da lista
+void lista_vizinhos_imprimir(lista_vizinhos_t *lista){
+    while (lista != NULL) {
+        printf("%d ", lista->id);
+        lista = lista->proximo;
+    }
+    printf("\n");
 }
