@@ -108,7 +108,7 @@ bool ler_nohs(FILE *arquivo, int num_nos, grafo_t grafo) {
 // Imprime o grafo e suas listas
 void grafo_imprimir(int tam, grafo_t grafo){
     for (int i = 0; i < tam; i++) {
-        printf("NO %d:  ", grafo[i].id); // Imprime o ID do nó
+        printf("NÓ %d:  ", grafo[i].id); // Imprime o ID do nó
         lista_vizinhos_imprimir(*grafo[i].lista);
     }
 }
