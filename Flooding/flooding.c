@@ -25,7 +25,7 @@ typedef struct Evento{
 
 typedef struct ListaEventos{
     evento_t *evento;
-    struct tlista_eventos_t *proximo_lista_eventos;
+    struct ListaEventos *proximo_lista_eventos;
 }lista_eventos_t;
 
 // Adiciona itens na lista
@@ -144,6 +144,37 @@ void free_grafo(int tam, grafo_t grafo) {
     free(grafo);
 }
 
+bool lista_eventos_adicionar_ordenado(evento_t *evento, lista_eventos_t **lista) {
+ 
+    lista_eventos_t* novo_evento = malloc(sizeof(lista_eventos_t));
+    novo_evento->evento = carga;
+    novo_evento->proximo_lista_eventos = NULL;
+
+    // Se a lista for NULL, aponta para o novo item
+    if (*lista == NULL) {
+        *lista = novo_evento;
+        return false;
+    }
+
+    // Se o tempo do novo evento for menor do que o tempo do primeiro item da lista, adiciona o item no início da lista
+    if (evento->tempo < (*lista)->evento->tempo) {
+        novo_evento->proximo_lista_eventos = *lista;
+        *lista = novo_evento;
+        return false;
+    }
+
+    // Percorre a lista para encontrar a posição adequada para inserir o novo evento (ordenadamente)
+    lista_eventos_t *item_atual = *lista;
+    while (item_atual->proximo_lista_eventos != NULL && item_atual->proximo_lista_eventos->evento->tempo < evento->tempo) {
+        item_atual = item_atual->proximo_lista_eventos;
+    }
+
+    // Adicione o novo evento como próximo do item_atual
+    novo_evento->proximo_lista_eventos = item_atual->proximo_lista_eventos;
+    item_atual->proximo_lista_eventos = novo_evento;
+
+    return true;
+}
 
 
 
