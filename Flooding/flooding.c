@@ -17,6 +17,17 @@ typedef struct No{
 
 typedef no_t *grafo_t; // Vetor de nós
 
+typedef struct Evento{
+    double tempo;
+    int alvo;
+    int tipo;
+}evento_t;
+
+typedef struct ListaEventos{
+    evento_t *evento;
+    struct tlista_eventos_t *proximo_lista_eventos;
+}lista_eventos_t;
+
 // Adiciona itens na lista
 bool lista_vizinhos_adicionar(int vizinho, lista_vizinhos_t **lista){
     lista_vizinhos_t *novo_vizinho = malloc(sizeof(lista_vizinhos_t));
