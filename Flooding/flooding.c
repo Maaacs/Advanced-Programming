@@ -12,6 +12,7 @@ typedef struct ListaVizinhos{
 typedef struct No{
     int id;
     double x, y;
+    bool FLAG_PACOTE_STATUS;
     lista_vizinhos_t **lista;
 }no_t;
 
@@ -144,38 +145,53 @@ void free_grafo(int tam, grafo_t grafo) {
     free(grafo);
 }
 
-bool lista_eventos_adicionar_ordenado(evento_t *evento, lista_eventos_t **lista) {
- 
-    lista_eventos_t* novo_evento = malloc(sizeof(lista_eventos_t));
-    novo_evento->evento = carga;
-    novo_evento->proximo_lista_eventos = NULL;
+
+bool lista_eventos_adicionar_ordenado(evento_t *evento, lista_eventos_t **lista){
+    
+    lista_eventos_t *novo_evento = malloc(sizeof(lista_eventos_t));
+    novo_evento->evento = evento;
 
     // Se a lista for NULL, aponta para o novo item
-    if (*lista == NULL) {
-        *lista = novo_evento;
-        return false;
+    if (*lista == NULL){
+        if (novo_evento == NULL)
+            return false;
+        else{
+            novo_evento->evento = evento;
+            novo_evento->proximo_lista_eventos = NULL;
+            *lista = novo_evento;
+            return true;
+        }
     }
 
-    // Se o tempo do novo evento for menor do que o tempo do primeiro item da lista, adiciona o item no início da lista
-    if (evento->tempo < (*lista)->evento->tempo) {
-        novo_evento->proximo_lista_eventos = *lista;
-        *lista = novo_evento;
-        return false;
+    lista_eventos_t *atual_evento = *lista;
+    if (atual_evento->proximo_lista_eventos == NULL){
+        if (novo_evento == NULL || atual_evento == NULL){
+            return false;
+        }
+         
+        // Se o tempo do novo evento for menor do que o tempo do primeiro item da lista, adiciona o item no início da lista
+        if (evento->tempo < atual_evento->evento->tempo){
+            novo_evento->proximo_lista_eventos = atual_evento;
+            *lista = novo_evento;
+            atual_evento->proximo_lista_eventos = NULL;
+            return true;
+        }
+
+        atual_evento->proximo_lista_eventos = novo_evento;
+        return true;
     }
 
     // Percorre a lista para encontrar a posição adequada para inserir o novo evento (ordenadamente)
-    lista_eventos_t *item_atual = *lista;
-    while (item_atual->proximo_lista_eventos != NULL && item_atual->proximo_lista_eventos->evento->tempo < evento->tempo) {
-        item_atual = item_atual->proximo_lista_eventos;
+    while (atual_evento->proximo_lista_eventos != NULL && atual_evento->proximo_lista_eventos->evento->tempo < evento->tempo){
+        atual_evento = atual_evento->proximo_lista_eventos;
     }
 
     // Adicione o novo evento como próximo do item_atual
-    novo_evento->proximo_lista_eventos = item_atual->proximo_lista_eventos;
-    item_atual->proximo_lista_eventos = novo_evento;
+    novo_evento->proximo_lista_eventos = atual_evento->proximo_lista_eventos;
+    atual_evento->proximo_lista_eventos = novo_evento;
 
     return true;
 }
-
 
 
 int main(int argc, char *argv[]){
