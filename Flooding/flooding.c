@@ -29,6 +29,8 @@ typedef struct ListaEventos{
     struct ListaEventos *proximo_lista_eventos;
 }lista_eventos_t;
 
+
+
 // Adiciona itens na lista
 bool lista_vizinhos_adicionar(int vizinho, lista_vizinhos_t **lista){
     lista_vizinhos_t *novo_vizinho = malloc(sizeof(lista_vizinhos_t));
@@ -40,6 +42,7 @@ bool lista_vizinhos_adicionar(int vizinho, lista_vizinhos_t **lista){
     *lista = novo_vizinho;
     return true;
 }
+
 
 // Imprime os itens da lista
 void lista_vizinhos_imprimir(lista_vizinhos_t *lista){
@@ -146,6 +149,7 @@ void free_grafo(int tam, grafo_t grafo) {
 }
 
 
+
 bool lista_eventos_adicionar_ordenado(evento_t *evento, lista_eventos_t **lista){
     
     lista_eventos_t *novo_evento = malloc(sizeof(lista_eventos_t));
@@ -194,28 +198,112 @@ bool lista_eventos_adicionar_ordenado(evento_t *evento, lista_eventos_t **lista)
 }
 
 
-int main(int argc, char *argv[]){
 
+void simulacao_iniciar(lista_eventos_t **lista, int tam, grafo_t grafo) {
+    while (*lista != NULL) {
+        lista_eventos_t *elemento_inicio_lista = *lista;
+        *lista = elemento_inicio_lista->proximo_lista_eventos; // Pega o primeiro evento da lista de eventos
+        elemento_inicio_lista->proximo_lista_eventos = NULL;
+
+        double tempo = elemento_inicio_lista->evento->tempo;
+        int alvo = elemento_inicio_lista->evento->alvo;
+
+        printf("[%3.6f] Nó %d recebeu pacote\n", tempo, alvo); // Imprime a chegada do pacote no noh alvo
+
+        // Verifica se o noh alvo ja recebeu um pacote
+        if (!grafo[alvo].FLAG_PACOTE_STATUS) {
+            lista_vizinhos_t *vizinho = *grafo[alvo].lista;
+            while (vizinho != NULL) {
+                printf("--> Repassando pacote para o nó %d ... \n", vizinho->id); // Repassa para os vizinhos do noh alvo
+                evento_t *novo = (evento_t *)malloc(sizeof(evento_t)); // Cria um novo evento para o vizinho
+                novo->alvo = vizinho->id;
+                novo->tipo = 1;
+                novo->tempo = tempo + (0.1 + (vizinho->id * 0.01));
+                
+       
+                bool adicionar = lista_eventos_adicionar_ordenado(novo, lista);
+                while (!adicionar) {
+                    adicionar = lista_eventos_adicionar_ordenado(novo, lista);
+                }
+                vizinho = vizinho->proximo;
+            }
+            grafo[alvo].FLAG_PACOTE_STATUS = true;
+        }
+        free(elemento_inicio_lista->evento); // Libera o evento
+        free(elemento_inicio_lista); // Libera elemento o elemento processado em cada iteracao
+    }
+}
+
+
+
+
+int main(int argc, char* argv[]) {
+    
     if (argc != 2) {
-        printf("Digite: %s <arquivo_entrada>\n", argv[0]);
+        printf("Digite: <./executável> <arquivo_de_entrada>\n");
         return 1;
     }
 
-    FILE *arquivo = fopen(argv[1], "r");
-    if (!arquivo){
+    FILE* arquivo = fopen(argv[1], "r");
+    
+
+    if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo de entrada\n");
-    }
-    else{
-        int num_nos;
-        double raio;
+    } else {
+        int tam = 0;          
+        double raio = 0.0;    
 
-        fscanf(arquivo, "%d\t%lf\n", &num_nos, &raio);
+        if (fscanf(arquivo, "%d\t%lf\n", &tam, &raio) != 2) {
+            printf("Erro ao ler parâmetros iniciais\n");
+            return 1;
+        }
 
-        grafo_t grafo = grafo_criar(num_nos);
-        ler_nohs(arquivo, num_nos, grafo);
-        grafo_atualizar_vizinhos(num_nos, raio, grafo);
-        grafo_imprimir(num_nos, grafo);
-        free_grafo(num_nos, grafo);
+        // Cria um grafo vazio com o numero de nohs especificado
+        grafo_t GRAFO = grafo_criar(tam);
+
+        if (GRAFO == NULL) {
+            printf("ERRO ao alocar memória\n");
+            return 1;
+        }
+
+        // Lê os nohs do arquivo e preenche o grafo
+        if (!ler_nohs(arquivo, tam, GRAFO)) {
+            printf("Erro ao ler nós do arquivo\n");
+            return 1;
+        }
+
+        // Atualiza a lista de vizinhos de cada noh do grafo com base no raio de comunicaçao
+        if (!grafo_atualizar_vizinhos(tam, raio, GRAFO)) {
+            printf("Erro ao atualizar vizinhos\n");
+            return 1;
+        }
+
+        // Cria um evento inicial e adiciona a lista de eventos
+        evento_t* novo = (evento_t*)malloc(sizeof(evento_t));
+        lista_eventos_t** lista_eventos = (lista_eventos_t**)malloc(sizeof(lista_eventos_t));
+        *lista_eventos = NULL;
+
+        if (novo == NULL || lista_eventos == NULL) {
+            printf("Erro na alocação de memória para eventos\n");
+            return 1;
+        }
+
+        // Valores do evento inicial
+        novo->alvo = 0;
+        novo->tipo = 1;
+        novo->tempo = 1.0;
+
+        // Adiciona o evento inicial à lista de eventos ordenadamente
+        if (!lista_eventos_adicionar_ordenado(novo, lista_eventos)) {
+            printf("Erro ao adicionar evento inicial\n");
+            return 1;
+        }
+
+        simulacao_iniciar(lista_eventos, tam, GRAFO);
+
+        free_grafo(tam, GRAFO);
+        free(lista_eventos);
+        fclose(arquivo);
     }
 
     return 0;
