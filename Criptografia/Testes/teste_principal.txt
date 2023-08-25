@@ -1,0 +1,34 @@
+a--> Não
+b--> Não
+c--> Não
+aa--> Não
+ba--> Não
+ca--> Não
+ab--> Não
+bb--> Não
+cb--> Não
+ac--> Não
+bc--> Não
+cc--> Não
+aaa--> Não
+baa--> Não
+caa--> Não
+aba--> Não
+bba--> Não
+cba--> Não
+aca--> Não
+bca--> Não
+cca--> Não
+aab--> Não
+bab--> Não
+cab--> Não
+abb--> Não
+bbb--> Não
+cbb--> Não
+acb--> Não
+bcb--> Não
+ccb--> Não
+aac--> Não
+bac--> Sim! Senha encontrada!
+
+Tempo de execução: ~0.000000 segundos
