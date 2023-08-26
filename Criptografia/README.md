@@ -27,3 +27,7 @@ gcc quebraSenha.c -o quebra_senha -lcrypt -lm
 ```
 ./quebra_senha
 ```
+
+----
+
+![About](Snippet.png)
