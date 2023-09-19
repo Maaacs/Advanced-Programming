@@ -1,0 +1,899 @@
+Lendo chunk: 1
+	--> Tamanho: 13
+	--> Tipo: IHDR
+		--> Largura: 2176
+		--> Altura: 2720
+Lendo chunk: 2
+	--> Tamanho: 1
+	--> Tipo: sRGB
+Lendo chunk: 3
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 4
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 5
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 6
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 7
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 8
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 9
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 10
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 11
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 12
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 13
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 14
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 15
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 16
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 17
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 18
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 19
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 20
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 21
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 22
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 23
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 24
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 25
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 26
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 27
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 28
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 29
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 30
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 31
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 32
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 33
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 34
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 35
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 36
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 37
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 38
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 39
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 40
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 41
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 42
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 43
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 44
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 45
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 46
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 47
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 48
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 49
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 50
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 51
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 52
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 53
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 54
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 55
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 56
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 57
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 58
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 59
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 60
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 61
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 62
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 63
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 64
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 65
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 66
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 67
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 68
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 69
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 70
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 71
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 72
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 73
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 74
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 75
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 76
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 77
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 78
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 79
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 80
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 81
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 82
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 83
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 84
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 85
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 86
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 87
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 88
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 89
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 90
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 91
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 92
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 93
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 94
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 95
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 96
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 97
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 98
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 99
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 100
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 101
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 102
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 103
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 104
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 105
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 106
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 107
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 108
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 109
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 110
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 111
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 112
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 113
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 114
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 115
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 116
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 117
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 118
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 119
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 120
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 121
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 122
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 123
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 124
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 125
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 126
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 127
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 128
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 129
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 130
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 131
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 132
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 133
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 134
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 135
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 136
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 137
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 138
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 139
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 140
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 141
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 142
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 143
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 144
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 145
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 146
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 147
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 148
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 149
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 150
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 151
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 152
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 153
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 154
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 155
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 156
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 157
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 158
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 159
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 160
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 161
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 162
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 163
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 164
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 165
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 166
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 167
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 168
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 169
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 170
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 171
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 172
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 173
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 174
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 175
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 176
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 177
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 178
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 179
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 180
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 181
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 182
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 183
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 184
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 185
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 186
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 187
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 188
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 189
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 190
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 191
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 192
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 193
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 194
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 195
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 196
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 197
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 198
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 199
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 200
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 201
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 202
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 203
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 204
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 205
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 206
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 207
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 208
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 209
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 210
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 211
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 212
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 213
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 214
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 215
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 216
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 217
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 218
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 219
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 220
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 221
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 222
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 223
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 224
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 225
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 226
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 227
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 228
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 229
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 230
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 231
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 232
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 233
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 234
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 235
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 236
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 237
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 238
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 239
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 240
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 241
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 242
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 243
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 244
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 245
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 246
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 247
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 248
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 249
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 250
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 251
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 252
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 253
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 254
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 255
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 256
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 257
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 258
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 259
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 260
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 261
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 262
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 263
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 264
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 265
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 266
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 267
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 268
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 269
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 270
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 271
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 272
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 273
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 274
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 275
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 276
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 277
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 278
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 279
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 280
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 281
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 282
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 283
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 284
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 285
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 286
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 287
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 288
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 289
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 290
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 291
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 292
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 293
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 294
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 295
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 296
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 297
+	--> Tamanho: 8192
+	--> Tipo: IDAT
+Lendo chunk: 298
+	--> Tamanho: 3975
+	--> Tipo: IDAT
+Lendo chunk: 299
+	--> Tamanho: 0
+	--> Tipo: IEND
