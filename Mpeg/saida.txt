@@ -1,0 +1,183 @@
+--> Código: b3 --  Sequence Header  --  Width = 360  --  Height = 288  --  Frame rate = 25.000fps
+--> Codigo: b8 -- Group of Pictures 
+--> Código: 00 -- Picture -- Tipo = I
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Codigo: b8 -- Group of Pictures 
+--> Código: 00 -- Picture -- Tipo = I
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Codigo: b8 -- Group of Pictures 
+--> Código: 00 -- Picture -- Tipo = I
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Codigo: b8 -- Group of Pictures 
+--> Código: 00 -- Picture -- Tipo = I
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Codigo: b8 -- Group of Pictures 
+--> Código: 00 -- Picture -- Tipo = I
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Codigo: b8 -- Group of Pictures 
+--> Código: 00 -- Picture -- Tipo = I
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Codigo: b8 -- Group of Pictures 
+--> Código: 00 -- Picture -- Tipo = I
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Codigo: b8 -- Group of Pictures 
+--> Código: 00 -- Picture -- Tipo = I
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = B
+--> Codigo: 01 -- Slice
+--> Código: 00 -- Picture -- Tipo = P
+--> Codigo: 01 -- Slice
+--> Código: b7 -- Tipo de stream não implementado
+--> Código: b7 -- Tipo de stream não implementado
