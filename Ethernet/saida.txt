@@ -1,0 +1,25 @@
+Lendo Ethernet ..
+--> MAC de Origem:   00:23:12:c2:17:b6
+--> MAC de Destino:   00:50:56:a7:79:5a
+Lendo IP ..
+--> Versão do IP:   4
+--> Tamanho do cabeçalho:   20  bytes
+--> Tamanho do pacote:   440  bytes 
+--> Endereço IP de Origem:   10.208.2.69
+--> Endereço IP de Destino:   200.143.247.51
+Lendo TCP ..
+--> Porta de Origem:  56056
+--> Porta de Destino:   80
+--> Tamanho do cabeçalho:   32   bytes
+Lendo Dados (HTTP) ..
+--> Tamanho dos dados:   388  bytes
+--> Dados:
+GET /r/Fallout HTTP/1.1
+Host: www.reddit.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/28.0.1500.71 Chrome/28.0.1500.71 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+
